@@ -93,9 +93,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,rust,bash,react,vite,tailwind,bun,nodejs,sqlite,docker,linux,cloudflare&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,rust,bash,react,vite,tailwind,bun,nodejs,sqlite,docker,linux,cloudflare&theme=light" />
-    <img alt="Tech Stack" src="https://skillicons.dev/icons?i=ts,js,rust,bash,react,vite,tailwind,bun,nodejs,sqlite,docker,linux,cloudflare&theme=light" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Crust%2Cbash%2Creact%2Cvite%2Ctailwind%2Cbun%2Cnodejs%2Csqlite%2Cdocker%2Clinux%2Ccloudflare&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Crust%2Cbash%2Creact%2Cvite%2Ctailwind%2Cbun%2Cnodejs%2Csqlite%2Cdocker%2Clinux%2Ccloudflare&theme=light" />
+    <img alt="Tech Stack" src="https://skillicons.dev/icons?i=ts%2Cjs%2Crust%2Cbash%2Creact%2Cvite%2Ctailwind%2Cbun%2Cnodejs%2Csqlite%2Cdocker%2Clinux%2Ccloudflare&theme=light" />
   </picture>
 </p>
 
