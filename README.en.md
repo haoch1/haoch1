@@ -12,8 +12,8 @@
   </p>
 
   <p>
-    Building <strong>self-hosted cloud panels</strong>, <strong>Linux networking tools</strong>, and <strong>modern full-stack utilities</strong>.<br />
-    Focused on clean UX, minimal dependencies, and effortless Docker-first deployments.
+    Building <strong>self-hosted cloud panels</strong>, <strong>Linux networking tools</strong>, and <strong>modern full-stack apps</strong>.<br />
+    Focused on clean UX, minimal dependencies, and effortless Docker / single-binary deployments.
   </p>
 
   <p>
@@ -23,15 +23,9 @@
     <a href="https://github.com/haoch1?tab=stars">
       <img src="https://img.shields.io/badge/Stars-Explore-18181b?style=flat-square&logo=github&logoColor=white" alt="Stars" />
     </a>
-    <!-- Uncomment and replace with your own website or email if desired -->
-    <!--
-    <a href="https://your-site.com">
-      <img src="https://img.shields.io/badge/Website-your--site.com-18181b?style=flat-square&logo=vercel&logoColor=white" alt="Website" />
+    <a href="https://github.com/haoch1/haoch1/actions">
+      <img src="https://img.shields.io/badge/Auto_Sync-GitHub_Actions-18181b?style=flat-square&logo=githubactions&logoColor=2088FF" alt="Auto Sync" />
     </a>
-    <a href="mailto:you@example.com">
-      <img src="https://img.shields.io/badge/Email-Contact-18181b?style=flat-square&logo=maildotru&logoColor=white" alt="Email" />
-    </a>
-    -->
   </p>
 </div>
 
@@ -39,30 +33,61 @@
 
 ### Featured Projects
 
-#### Cloud & Self-Hosted Panels
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/haoch1/CloudSeed"><strong>CloudSeed</strong></a><br />
+      <sub>Self-hosted Cloudflare DNS &amp; R2 management panel with multi-account support and one-command Docker deployment.</sub><br /><br />
+      <code>TypeScript</code> <code>Cloudflare</code> <code>Docker</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/haoch1/lightsail-panel"><strong>lightsail-panel</strong></a><br />
+      <sub>Self-hosted Amazon Lightsail console with multi-account/multi-region control, Web SSH, traffic charts &amp; auto-shutdown.</sub><br /><br />
+      <code>JavaScript</code> <code>AWS Lightsail</code> <code>Web SSH</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/haoch1/aliyun-panel"><strong>aliyun-panel</strong></a><br />
+      <sub>Self-hosted Alibaba Cloud ECS panel with keep-alive, traffic threshold guard, scheduled power &amp; Telegram alerts.</sub><br /><br />
+      <code>TypeScript</code> <code>Docker</code> <code>Alibaba Cloud</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/haoch1/hproxy"><strong>hproxy</strong></a><br />
+      <sub>Proxy node &amp; port-forwarding control plane for Linux servers using a Docker controller and native binary agent (sing-box + Realm).</sub><br /><br />
+      <code>Rust</code> <code>Docker</code> <code>Linux</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/haoch1/forme"><strong>forme</strong></a><br />
+      <sub>Chinese-first shadcn/ui workbench with presets, live component preview, theme editor &amp; standalone project templates.</sub><br /><br />
+      <code>React</code> <code>TypeScript</code> <code>Vite</code> <code>Tailwind</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/haoch1/SeekFeed"><strong>SeekFeed</strong></a><br />
+      <sub>Self-hosted NodeSeek monitoring &amp; analytics platform with RSS ingestion, trending feeds, keyword alerts &amp; Telegram bot.</sub><br /><br />
+      <code>Bun</code> <code>Hono</code> <code>SQLite</code> <code>TypeScript</code>
+    </td>
+  </tr>
+</table>
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| [**CloudSeed**](https://github.com/haoch1/CloudSeed) | Self-hosted Cloudflare DNS & R2 management panel with multi-account support and Docker deployment | `TypeScript` `Cloudflare` `Docker` |
-| [**lightsail-panel**](https://github.com/haoch1/lightsail-panel) | Self-hosted Amazon Lightsail console with multi-account/multi-region control, Web SSH, traffic charts & auto-shutdown | `JavaScript` `AWS Lightsail` `Web SSH` |
-| [**aliyun-panel**](https://github.com/haoch1/aliyun-panel) | Self-hosted Alibaba Cloud ECS panel with keep-alive, traffic threshold guard, scheduled power & Telegram alerts | `TypeScript` `Docker` `Alibaba Cloud` |
+---
 
-#### Linux Networking & Ops
+### Recently Updated
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| [**hproxy**](https://github.com/haoch1/hproxy) | Proxy node & port-forwarding control plane for Linux servers using a Docker controller and native binary agent (`sing-box` + `Realm`) | `Rust` `Docker` `Linux` |
-| [**singbox**](https://github.com/haoch1/singbox) | Linux `sing-box` management script supporting VLESS, SS2022, AnyTLS, Hysteria2, Snell & port hopping | `Bash` `systemd` `OpenRC` |
-| [**realm**](https://github.com/haoch1/realm) | Linux Realm TCP/UDP port-forwarding script with rule management, service control & core updates | `Bash` `Realm` `Linux` |
-| [**nftables**](https://github.com/haoch1/nftables) | Lightweight Linux `nftables` IPv4 TCP/UDP port-forwarding script with interactive menu & boot persistence | `Bash` `nftables` `Linux` |
+<sub>Auto-synced daily via GitHub Actions</sub>
 
-#### Web & Developer Tooling
-
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| [**forme**](https://github.com/haoch1/forme) | Chinese-first `shadcn/ui` workbench with presets, live component preview, theme editor & standalone templates | `React` `TypeScript` `Vite` `Tailwind` |
-| [**SeekFeed**](https://github.com/haoch1/SeekFeed) | Self-hosted NodeSeek monitoring & analytics platform with RSS ingestion, trending feeds, keyword alerts & Telegram bot | `Bun` `Hono` `SQLite` `TypeScript` |
-| [**userscripts**](https://github.com/haoch1/userscripts) | Tampermonkey utilities: Speedtest Pure (clean speedtest + IP masking) and YouTube Plus (playback stats & translation) | `JavaScript` `Tampermonkey` |
+<!-- RECENT_PROJECTS:START -->
+| Repository | Description | Language | Updated |
+| :--- | :--- | :--- | :---: |
+| [**CloudSeed**](https://github.com/haoch1/CloudSeed) | 自托管 Cloudflare DNS 与 R2 管理面板，支持多账号和 Docker 部署 | `TypeScript` | `2026-11-21` |
+| [**SeekFeed**](https://github.com/haoch1/SeekFeed) | 面向 NodeSeek 社区的自托管监控与分析平台，提供 RSS 采集、热榜、关键词订阅、Telegram 通知和多维统计，基于 Bun、Hono 与 SQLite。 | `TypeScript` | `2026-11-14` |
+| [**realm**](https://github.com/haoch1/realm) | Linux Realm TCP/UDP 端口转发管理脚本，支持规则管理、服务控制与核心更新 | `Shell` | `2026-11-12` |
+| [**singbox**](https://github.com/haoch1/singbox) | Linux sing-box 节点管理脚本，支持 Vless、Shadowsocks 2022、AnyTLS、Hysteria2、Snell 和端口跳跃，提供服务控制与核心更新 | `Shell` | `2026-11-12` |
+| [**lightsail-panel**](https://github.com/haoch1/lightsail-panel) | Amazon Lightsail 自托管管理面板，支持多账户、跨区域资源管理、网页 SSH、后台资源同步、按日流量图表、阈值自动关机和实时操作日志，适配桌面与移动端。 | `JavaScript` | `2026-11-03` |
+| [**aliyun-panel**](https://github.com/haoch1/aliyun-panel) | 阿里云 ECS 自托管管理面板，支持实例保活、流量阈值保护、定时开关机、账单与余额查询及 Telegram 通知，提供 amd64/arm64 Docker 镜像 | `JavaScript` | `2026-11-01` |
+<!-- RECENT_PROJECTS:END -->
 
 ---
 
@@ -110,14 +135,13 @@
 
 ---
 
-### Principles
-
-- **Self-Hosted First** — Keep data under your own control with single-container or single-binary setups.
-- **Pragmatic Engineering** — Build tools for real-world ops, networking, and daily developer friction.
-- **Thoughtful UX** — Even infrastructure panels deserve clean layouts and solid desktop/mobile ergonomics.
-
-<br />
-
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haoch1/haoch1/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haoch1/haoch1/output/snake-light.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/haoch1/haoch1/output/snake-light.svg" width="100%" />
+  </picture>
+
+  <br />
   <sub>Thanks for visiting · Feel free to open an issue or PR</sub>
 </div>
