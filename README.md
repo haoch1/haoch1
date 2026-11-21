@@ -79,59 +79,25 @@
 <sub>由 GitHub Actions 每日自动同步最新原创仓库</sub>
 
 <!-- RECENT_PROJECTS:START -->
-| 项目 | 简介 | 语言 | 更新 |
-| :--- | :--- | :--- | :---: |
-| [**CloudSeed**](https://github.com/haoch1/CloudSeed) | 自托管 Cloudflare DNS 与 R2 管理面板，支持多账号和 Docker 部署 | `TypeScript` | `2026-11-21` |
-| [**SeekFeed**](https://github.com/haoch1/SeekFeed) | 面向 NodeSeek 社区的自托管监控与分析平台，提供 RSS 采集、热榜、关键词订阅、Telegram 通知和多维统计，基于 Bun、Hono 与 SQLite。 | `TypeScript` | `2026-11-14` |
-| [**realm**](https://github.com/haoch1/realm) | Linux Realm TCP/UDP 端口转发管理脚本，支持规则管理、服务控制与核心更新 | `Shell` | `2026-11-12` |
-| [**singbox**](https://github.com/haoch1/singbox) | Linux sing-box 节点管理脚本，支持 Vless、Shadowsocks 2022、AnyTLS、Hysteria2、Snell 和端口跳跃，提供服务控制与核心更新 | `Shell` | `2026-11-12` |
-| [**lightsail-panel**](https://github.com/haoch1/lightsail-panel) | Amazon Lightsail 自托管管理面板，支持多账户、跨区域资源管理、网页 SSH、后台资源同步、按日流量图表、阈值自动关机和实时操作日志，适配桌面与移动端。 | `JavaScript` | `2026-11-03` |
-| [**aliyun-panel**](https://github.com/haoch1/aliyun-panel) | 阿里云 ECS 自托管管理面板，支持实例保活、流量阈值保护、定时开关机、账单与余额查询及 Telegram 通知，提供 amd64/arm64 Docker 镜像 | `JavaScript` | `2026-11-01` |
+- [**CloudSeed**](https://github.com/haoch1/CloudSeed) · `TypeScript` · <sub>2026/11/21</sub><br /><sub>自托管 Cloudflare DNS 与 R2 管理面板，支持多账号和 Docker 部署</sub>
+- [**SeekFeed**](https://github.com/haoch1/SeekFeed) · `TypeScript` · <sub>2026/11/14</sub><br /><sub>面向 NodeSeek 社区的自托管监控与分析平台，提供 RSS 采集、热榜、关键词订阅、Telegram 通知和多维统计，基于 Bun、Hono 与 SQLite。</sub>
+- [**realm**](https://github.com/haoch1/realm) · `Shell` · <sub>2026/11/12</sub><br /><sub>Linux Realm TCP/UDP 端口转发管理脚本，支持规则管理、服务控制与核心更新</sub>
+- [**singbox**](https://github.com/haoch1/singbox) · `Shell` · <sub>2026/11/12</sub><br /><sub>Linux sing-box 节点管理脚本，支持 Vless、Shadowsocks 2022、AnyTLS、Hysteria2、Snell 和端口跳跃，提供服务控制与核心更新</sub>
+- [**lightsail-panel**](https://github.com/haoch1/lightsail-panel) · `JavaScript` · <sub>2026/11/03</sub><br /><sub>Amazon Lightsail 自托管管理面板，支持多账户、跨区域资源管理、网页 SSH、后台资源同步、按日流量图表、阈值自动关机和实时操作日志，适配桌面与移动端。</sub>
+- [**aliyun-panel**](https://github.com/haoch1/aliyun-panel) · `JavaScript` · <sub>2026/11/01</sub><br /><sub>阿里云 ECS 自托管管理面板，支持实例保活、流量阈值保护、定时开关机、账单与余额查询及 Telegram 通知，提供 amd64/arm64 Docker 镜像</sub>
 <!-- RECENT_PROJECTS:END -->
 
 ---
 
 ### 技术栈
 
-<table>
-  <tr>
-    <td width="150"><strong>Languages</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/TypeScript-18181b?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/JavaScript-18181b?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/Rust-18181b?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-      <img src="https://img.shields.io/badge/Bash-18181b?style=flat-square&logo=gnubash&logoColor=4EAA25" alt="Bash" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Frontend</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/React-18181b?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-      <img src="https://img.shields.io/badge/Vite-18181b?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-18181b?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS" />
-      <img src="https://img.shields.io/badge/shadcn/ui-18181b?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Backend &amp; Data</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Bun-18181b?style=flat-square&logo=bun&logoColor=FBF0DF" alt="Bun" />
-      <img src="https://img.shields.io/badge/Hono-18181b?style=flat-square&logo=hono&logoColor=E36002" alt="Hono" />
-      <img src="https://img.shields.io/badge/Node.js-18181b?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
-      <img src="https://img.shields.io/badge/SQLite-18181b?style=flat-square&logo=sqlite&logoColor=003B57" alt="SQLite" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Infra &amp; Cloud</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Docker-18181b?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
-      <img src="https://img.shields.io/badge/Linux-18181b?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
-      <img src="https://img.shields.io/badge/Cloudflare-18181b?style=flat-square&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
-      <img src="https://img.shields.io/badge/Alibaba_Cloud-18181b?style=flat-square&logo=alibabacloud&logoColor=FF6A00" alt="Alibaba Cloud" />
-      <img src="https://img.shields.io/badge/Telegram-18181b?style=flat-square&logo=telegram&logoColor=26A5E4" alt="Telegram" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,rust,bash,react,vite,tailwind,bun,nodejs,sqlite,docker,linux,cloudflare&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,rust,bash,react,vite,tailwind,bun,nodejs,sqlite,docker,linux,cloudflare&theme=light" />
+    <img alt="Tech Stack" src="https://skillicons.dev/icons?i=ts,js,rust,bash,react,vite,tailwind,bun,nodejs,sqlite,docker,linux,cloudflare&theme=light" />
+  </picture>
+</p>
 
 ---
 

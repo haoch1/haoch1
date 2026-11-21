@@ -34,32 +34,26 @@ async function fetchRecentRepos() {
     .slice(0, MAX_REPOS);
 }
 
-function escapeCell(text) {
+function cleanText(text) {
   return String(text ?? '')
-    .replace(/\|/g, '\\|')
     .replace(/\r?\n/g, ' ')
     .trim();
 }
 
 function formatDate(iso) {
-  return new Date(iso).toISOString().slice(0, 10);
+  return new Date(iso).toISOString().slice(0, 10).replace(/-/g, '/');
 }
 
-function buildTable(repos, lang) {
-  const isZh = lang === 'zh';
-  const header = isZh
-    ? '| 项目 | 简介 | 语言 | 更新 |\n| :--- | :--- | :--- | :---: |'
-    : '| Repository | Description | Language | Updated |\n| :--- | :--- | :--- | :---: |';
-
-  const rows = repos.map((repo) => {
-    const name = `[**${escapeCell(repo.name)}**](${repo.html_url})`;
-    const desc = escapeCell(repo.description);
-    const language = repo.language ? `\`${escapeCell(repo.language)}\`` : '—';
-    const updated = `\`${formatDate(repo.pushed_at)}\``;
-    return `| ${name} | ${desc} | ${language} | ${updated} |`;
-  });
-
-  return [header, ...rows].join('\n');
+function buildList(repos) {
+  return repos
+    .map((repo) => {
+      const name = `[**${cleanText(repo.name)}**](${repo.html_url})`;
+      const lang = repo.language ? ` · \`${cleanText(repo.language)}\`` : '';
+      const updated = `<sub>${formatDate(repo.pushed_at)}</sub>`;
+      const desc = cleanText(repo.description);
+      return `- ${name}${lang} · ${updated}<br /><sub>${desc}</sub>`;
+    })
+    .join('\n');
 }
 
 function updateFile(filePath, content) {
@@ -93,9 +87,10 @@ async function main() {
     return;
   }
 
+  const list = buildList(repos);
   const root = process.cwd();
-  updateFile(path.join(root, 'README.md'), buildTable(repos, 'zh'));
-  updateFile(path.join(root, 'README.en.md'), buildTable(repos, 'en'));
+  updateFile(path.join(root, 'README.md'), list);
+  updateFile(path.join(root, 'README.en.md'), list);
 }
 
 main().catch((err) => {
