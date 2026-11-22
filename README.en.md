@@ -79,12 +79,12 @@
 <sub>Auto-synced daily via GitHub Actions</sub>
 
 <!-- RECENT_PROJECTS:START -->
-- [**CloudSeed**](https://github.com/haoch1/CloudSeed) · `TypeScript` · <sub>2026/11/21</sub><br /><sub>自托管 Cloudflare DNS 与 R2 管理面板，支持多账号和 Docker 部署</sub>
-- [**SeekFeed**](https://github.com/haoch1/SeekFeed) · `TypeScript` · <sub>2026/11/14</sub><br /><sub>面向 NodeSeek 社区的自托管监控与分析平台，提供 RSS 采集、热榜、关键词订阅、Telegram 通知和多维统计，基于 Bun、Hono 与 SQLite。</sub>
+- [**singbox**](https://github.com/haoch1/singbox) · `Shell` · <sub>2026/11/22</sub><br /><sub>Linux sing-box 节点管理脚本，支持 Vless、Shadowsocks 2022、AnyTLS、Hysteria2、Snell 和端口跳跃，提供服务控制与核心更新</sub>
+- [**SeekFeed**](https://github.com/haoch1/SeekFeed) · `TypeScript` · <sub>2026/11/21</sub><br /><sub>面向 NodeSeek 社区的轻量级自托管监控与分析平台，提供 RSS 实时采集、关键词订阅、Telegram 通知与多维统计分析，基于 Bun、Hono 与 SQLite。</sub>
+- [**CloudSeed**](https://github.com/haoch1/CloudSeed) · `TypeScript` · <sub>2026/11/21</sub><br /><sub>轻量自托管 Cloudflare DNS 与 R2 对象存储管理面板，基于官方 Kumo 设计系统，支持多账号、浏览器直传预览与 Docker 部署</sub>
+- [**aliyun-panel**](https://github.com/haoch1/aliyun-panel) · `JavaScript` · <sub>2026/11/21</sub><br /><sub>阿里云 ECS 自托管中文管理面板，支持实例自动保活、共享流量阈值保护、每日定时开关机、账单与余额查询及 Telegram 通知，极简黑白设计，适配桌面与移动端，提供 amd64/arm64 Docker 镜像。</sub>
+- [**lightsail-panel**](https://github.com/haoch1/lightsail-panel) · `JavaScript` · <sub>2026/11/21</sub><br /><sub>Amazon Lightsail 自托管中文管理面板，支持多账户跨区域实例管理、网页 SSH 终端、静态 IP 与防火墙、按日流量图表、阈值自动关机及 Telegram 通知，极简黑白设计，适配桌面与移动端。</sub>
 - [**realm**](https://github.com/haoch1/realm) · `Shell` · <sub>2026/11/12</sub><br /><sub>Linux Realm TCP/UDP 端口转发管理脚本，支持规则管理、服务控制与核心更新</sub>
-- [**singbox**](https://github.com/haoch1/singbox) · `Shell` · <sub>2026/11/12</sub><br /><sub>Linux sing-box 节点管理脚本，支持 Vless、Shadowsocks 2022、AnyTLS、Hysteria2、Snell 和端口跳跃，提供服务控制与核心更新</sub>
-- [**lightsail-panel**](https://github.com/haoch1/lightsail-panel) · `JavaScript` · <sub>2026/11/03</sub><br /><sub>Amazon Lightsail 自托管管理面板，支持多账户、跨区域资源管理、网页 SSH、后台资源同步、按日流量图表、阈值自动关机和实时操作日志，适配桌面与移动端。</sub>
-- [**aliyun-panel**](https://github.com/haoch1/aliyun-panel) · `JavaScript` · <sub>2026/11/01</sub><br /><sub>阿里云 ECS 自托管管理面板，支持实例保活、流量阈值保护、定时开关机、账单与余额查询及 Telegram 通知，提供 amd64/arm64 Docker 镜像</sub>
 <!-- RECENT_PROJECTS:END -->
 
 ---
