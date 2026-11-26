@@ -79,12 +79,12 @@
 <sub>由 GitHub Actions 每日自动同步最新原创仓库</sub>
 
 <!-- RECENT_PROJECTS:START -->
-- [**lightsail-panel**](https://github.com/haoch1/lightsail-panel) · `JavaScript` · <sub>2026/11/25</sub><br /><sub>Amazon Lightsail 自托管中文管理面板，支持多账户跨区域实例管理、网页 SSH 终端、静态 IP 与防火墙、按日流量图表、阈值自动关机及 Telegram 通知，极简黑白设计，适配桌面与移动端。</sub>
-- [**aliyun-panel**](https://github.com/haoch1/aliyun-panel) · `JavaScript` · <sub>2026/11/25</sub><br /><sub>阿里云 ECS 自托管中文管理面板，支持实例自动保活、共享流量阈值保护、每日定时开关机、账单与余额查询及 Telegram 通知，极简黑白设计，适配桌面与移动端，提供 amd64/arm64 Docker 镜像。</sub>
+- [**SeekFeed**](https://github.com/haoch1/SeekFeed) · `TypeScript` · <sub>2026/11/26</sub><br /><sub>面向 NodeSeek 社区的轻量级自托管监控与分析平台，提供 RSS 实时采集、关键词订阅、Telegram 通知与多维统计分析，基于 Bun、Hono 与 SQLite。</sub>
+- [**CloudSeed**](https://github.com/haoch1/CloudSeed) · `TypeScript` · <sub>2026/11/26</sub><br /><sub>轻量自托管 Cloudflare DNS 与 R2 对象存储管理面板，基于官方 Kumo 设计系统，支持多账号、浏览器直传预览与 Docker 部署</sub>
+- [**lightsail-panel**](https://github.com/haoch1/lightsail-panel) · `JavaScript` · <sub>2026/11/26</sub><br /><sub>Amazon Lightsail 自托管中文管理面板，支持多账户跨区域实例管理、网页 SSH 终端、静态 IP 与防火墙、按日流量图表、阈值自动关机及 Telegram 通知，极简黑白设计，适配桌面与移动端。</sub>
+- [**aliyun-panel**](https://github.com/haoch1/aliyun-panel) · `JavaScript` · <sub>2026/11/26</sub><br /><sub>阿里云 ECS 自托管中文管理面板，支持实例自动保活、共享流量阈值保护、每日定时开关机、账单与余额查询及 Telegram 通知，极简黑白设计，适配桌面与移动端，提供 amd64/arm64 Docker 镜像。</sub>
 - [**AntigravityProxy**](https://github.com/haoch1/AntigravityProxy) · `C#` · <sub>2026/11/25</sub><br /><sub>面向 Windows 的 Antigravity 轻量级代理启动器：自动采集系统代理并以进程级隔离方式注入规范化 HTTP_PROXY / HTTPS_PROXY / NO_PROXY 环境变量，零依赖、无后台驻留。</sub>
 - [**singbox**](https://github.com/haoch1/singbox) · `Shell` · <sub>2026/11/22</sub><br /><sub>Linux sing-box 节点管理脚本，支持 Vless、Shadowsocks 2022、AnyTLS、Hysteria2、Snell 和端口跳跃，提供服务控制与核心更新</sub>
-- [**SeekFeed**](https://github.com/haoch1/SeekFeed) · `TypeScript` · <sub>2026/11/21</sub><br /><sub>面向 NodeSeek 社区的轻量级自托管监控与分析平台，提供 RSS 实时采集、关键词订阅、Telegram 通知与多维统计分析，基于 Bun、Hono 与 SQLite。</sub>
-- [**CloudSeed**](https://github.com/haoch1/CloudSeed) · `TypeScript` · <sub>2026/11/21</sub><br /><sub>轻量自托管 Cloudflare DNS 与 R2 对象存储管理面板，基于官方 Kumo 设计系统，支持多账号、浏览器直传预览与 Docker 部署</sub>
 <!-- RECENT_PROJECTS:END -->
 
 ---
