@@ -79,12 +79,12 @@
 <sub>Auto-synced daily via GitHub Actions</sub>
 
 <!-- RECENT_PROJECTS:START -->
-- [**Shell**](https://github.com/haoch1/Shell) · `Go` · <sub>2026/11/27</sub><br /><sub>面向 Windows 的轻量原生 SSH / SFTP 桌面客户端（Go + Wails）—— 多窗分屏、通用配置导入、端口转发、状态监控、系统托盘与 MCP / AI Agent 桥接。</sub>
+- [**Shell**](https://github.com/haoch1/Shell) · `Go` · <sub>2026/11/28</sub><br /><sub>面向 Windows 的轻量原生 SSH / SFTP 桌面客户端（Go + Wails）—— 多窗分屏、通用配置导入、端口转发、状态监控、系统托盘与 MCP / AI Agent 桥接。</sub>
+- [**forme**](https://github.com/haoch1/forme) · `TypeScript` · <sub>2026/11/28</sub><br /><sub>面向中文开发者的通用前端设计系统与架构选配工作台：OKLCH 感知色彩、W3C DTCG 令牌、中英排版与组件实验室，一键导出多生态主题代码（Tailwind v4 / AntD / Arco / Semi / TDesign / Mantine / shadcn 等）、AI 开发规范与独立工程模板。</sub>
 - [**SeekFeed**](https://github.com/haoch1/SeekFeed) · `TypeScript` · <sub>2026/11/26</sub><br /><sub>面向 NodeSeek 社区的轻量级自托管监控与分析平台，提供 RSS 实时采集、关键词订阅、Telegram 通知与多维统计分析，基于 Bun、Hono 与 SQLite。</sub>
 - [**CloudSeed**](https://github.com/haoch1/CloudSeed) · `TypeScript` · <sub>2026/11/26</sub><br /><sub>轻量自托管 Cloudflare DNS 与 R2 对象存储管理面板，基于官方 Kumo 设计系统，支持多账号、浏览器直传预览与 Docker 部署</sub>
 - [**lightsail-panel**](https://github.com/haoch1/lightsail-panel) · `JavaScript` · <sub>2026/11/26</sub><br /><sub>Amazon Lightsail 自托管中文管理面板，支持多账户跨区域实例管理、网页 SSH 终端、静态 IP 与防火墙、按日流量图表、阈值自动关机及 Telegram 通知，极简黑白设计，适配桌面与移动端。</sub>
 - [**aliyun-panel**](https://github.com/haoch1/aliyun-panel) · `JavaScript` · <sub>2026/11/26</sub><br /><sub>阿里云 ECS 自托管中文管理面板，支持实例自动保活、共享流量阈值保护、每日定时开关机、账单与余额查询及 Telegram 通知，极简黑白设计，适配桌面与移动端，提供 amd64/arm64 Docker 镜像。</sub>
-- [**AntigravityProxy**](https://github.com/haoch1/AntigravityProxy) · `C#` · <sub>2026/11/25</sub><br /><sub>面向 Windows 的 Antigravity 轻量级代理启动器：自动采集系统代理并以进程级隔离方式注入规范化 HTTP_PROXY / HTTPS_PROXY / NO_PROXY 环境变量，零依赖、无后台驻留。</sub>
 <!-- RECENT_PROJECTS:END -->
 
 ---
